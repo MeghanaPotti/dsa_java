@@ -11,6 +11,7 @@ public class StringFunctions {
 		System.out.println("lenght of name is "+name.length());
 		System.out.println("index of g is "+name.indexOf('g')); 
 		System.out.println("character at position 0 is "+name.charAt(0)); 
+		System.out.println("character at position 1 is "+name.charAt(1)); 
 		System.out.println("concatination of name and location is "+name.concat(location)); 
 		System.out.println("concatination of name and location with operator is "+name+"_"+location); 
 
