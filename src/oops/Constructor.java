@@ -1,6 +1,6 @@
 package oops;
 
-//public class Constructor {
+//public class Constructor {               // constructor is used for default execution
 //	
 //	Constructor() {
 //		
@@ -19,9 +19,21 @@ package oops;
 
 	
 	 class Constructor {
-		
-		int num=1;
-		String name="Meghana";
+		  
+		 int num;
+		 String name;
+		 
+		 Constructor() {
+			  num=1;
+			 name="Meghana"; 		 
+			 display();
+		 }
+		 
+		 Constructor(int n, String name) {  // parameterized constructor
+			  num=n;
+			 this.name=name;      // used for unique variable identification
+			 display();
+		 }
 		
 		void display() {
 		System.out.println("Student id is "+num);
@@ -30,6 +42,8 @@ package oops;
 		
 		public static void main (String[] args) {
 			Constructor object = new Constructor();
-			object.display();
+//			object.display();
+			Constructor object1 = new Constructor(3, "satya");
+			
 		}
 	}
