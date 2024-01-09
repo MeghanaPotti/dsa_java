@@ -14,9 +14,6 @@ package oops;
 //	}
 //
 //}
-
-
-
 	
 	 class Constructor {
 		  
