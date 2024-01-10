@@ -4,7 +4,7 @@ public class PrimeNumber {
 
 		public static void main(String[] args)
 		{
-			int n=12, count=0;
+			int n=3, count=0;
 			if(n<=1)
 				System.out.println("Not a prime number");
 			for(int i=2; i<=n/2; i++)

@@ -9,6 +9,10 @@ class Child extends GrandChild {
 	void study() {
 		System.out.println("Studying");
 	}
+	
+	void play() {
+		System.out.println("Playing");
+	}
 }
 class Parent extends Child {
 	void work() {
@@ -30,6 +34,7 @@ public class Inheritance_Multilevel {
 		object.study();
 		object.work();
 		object.relax();
+		object.play();
 	}
 
 }
