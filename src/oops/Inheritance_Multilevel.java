@@ -23,6 +23,10 @@ class GrandParent extends Parent {
 	void relax( ) {
 		System.out.println("Relaxing");
 	}
+	
+	void read() {
+		System.out.println("reading");
+	}
 }
 
 public class Inheritance_Multilevel {
@@ -35,6 +39,7 @@ public class Inheritance_Multilevel {
 		object.work();
 		object.relax();
 		object.play();
+		object.read();
 	}
 
 }
