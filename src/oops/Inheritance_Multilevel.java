@@ -4,6 +4,9 @@ class GrandChild {
 	 void crawl() {
 		  System.out.println("Crawling");
 		 }
+	 void cry() {
+		 System.out.println("Crying");
+	 }
 	}
 class Child extends GrandChild {
 	void study() {
@@ -40,6 +43,7 @@ public class Inheritance_Multilevel {
 		object.relax();
 		object.play();
 		object.read();
+		object.cry();
 	}
 
 }
