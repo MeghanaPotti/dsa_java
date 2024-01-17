@@ -6,6 +6,12 @@ class Numbers {
 	}
 }
 
+class IrrationalNumbers extends Numbers {
+	void display1() {
+		System.out.println("Irrational numbers");
+	}
+}
+
 class RationalNumbers extends Numbers {
 	void show() {
 		System.out.println("Rational numbers");
