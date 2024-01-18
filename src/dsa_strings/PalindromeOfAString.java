@@ -4,7 +4,7 @@ public class PalindromeOfAString {
 
 	public static void main(String[] args) {
 
-         String actualvalue = "MOS";
+         String actualvalue = "MOMS";
          String temp = "";
          
          

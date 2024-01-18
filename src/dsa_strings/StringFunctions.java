@@ -19,13 +19,14 @@ public class StringFunctions {
 	public static void main(String[] args) {
 		
 		System.out.println("character at position 0 is "+name.charAt(0));	//System.out.println("Character is at "+name.charAt(0));
-		//System.out.println("Unicode of character is "+name.codePointAt(2)); 
+		System.out.println("Unicode of character is "+name.codePointAt(2)); 
 		System.out.println("Comparision value is "+string1.compareTo(string2));
 		System.out.println("concatination of name and location is "+name.concat(location)); 
 		System.out.println("status of sequence characters are "+name.contains("Ma")); 
 		copyString = String.copyValueOf(string,0,4);
 		System.out.println("returned sting is "+copyString); 
 		System.out.println("given character in location is "+location.endsWith("e")); 
+		System.out.println("character in location is "+location.endsWith("d"));
 		System.out.println("comparision status is "+string1.equals(string3));
 		System.out.println("casesensitive status is "+string1.equalsIgnoreCase(string4));
 
