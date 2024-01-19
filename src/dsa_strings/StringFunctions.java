@@ -26,7 +26,6 @@ public class StringFunctions {
 		copyString = String.copyValueOf(string,0,4);
 		System.out.println("returned sting is "+copyString); 
 		System.out.println("given character in location is "+location.endsWith("e")); 
-		System.out.println("character in location is "+location.endsWith("d"));
 		System.out.println("comparision status is "+string1.equals(string3));
 		System.out.println("casesensitive status is "+string1.equalsIgnoreCase(string4));
 
