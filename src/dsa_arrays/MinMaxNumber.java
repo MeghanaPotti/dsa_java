@@ -23,6 +23,7 @@ public class MinMaxNumber {
 		
 		   MinMaxNumber object = new 	MinMaxNumber();
 		   object.minmax();
+		   System.out.println("This is minimum and maximum number validation method");
 		   System.out.println("Minimum number is "+object.min);
 		   System.out.println("Maximum number is "+object.max);   
 	   }
