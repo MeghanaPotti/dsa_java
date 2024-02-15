@@ -18,6 +18,7 @@ public class NoOfOccurence {
 			}
 			
 		}
+		System.out.println("Method to display no.of occurance");
 		System.out.println("Count of "+find+" is " +count);
 
 	}
