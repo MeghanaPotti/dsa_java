@@ -19,9 +19,9 @@ public class VowelsInAString {
 			else 
 				specialCharacters++;
 		}
-	
+	System.out.println("Program to get the count of vowels and consonants in a given string");
 		System.out.println("Vowels count is "+vowelsCount);
-		System.out.println("Consonents count is "+consonantsCount);
+		System.out.println("Consonants count is "+consonantsCount);
 		System.out.println("Special Charcaters count is "+specialCharacters);
 	}
 
