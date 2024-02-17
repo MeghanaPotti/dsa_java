@@ -25,11 +25,13 @@ public class StringFunctions {
 		System.out.println("status of sequence characters are "+name.contains("Ma")); 
 		copyString = String.copyValueOf(string,0,4);
 		System.out.println("returned sting is "+copyString); 
-		System.out.println("given character in location is "+location.endsWith("e")); 
+		System.out.println("given character in location is "+location.endsWith("e"));
+		System.out.println("given character in location is "+location.endsWith("d"));
 		System.out.println("comparision status is "+string1.equals(string3));
 		System.out.println("casesensitive status is "+string1.equalsIgnoreCase(string4));
 
 		System.out.println("index of g is "+name.indexOf('g')); 
+		System.out.println("index of g is "+name.indexOf('s')); 
 		System.out.println("Empty string status "+name.isEmpty());
 		System.out.println("Empty string status "+string5.isEmpty()); 
 		System.out.println("position is "+string6.lastIndexOf("occurance"));
