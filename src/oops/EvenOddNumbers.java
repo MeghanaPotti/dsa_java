@@ -11,7 +11,6 @@ public class EvenOddNumbers {
 	}
 
 	else 
-		 System.out.println(" Given number is odd number");
-		
+		 System.out.println(" Given number is odd number");		
 	}
 }

@@ -6,7 +6,6 @@ class Overloading {
 		System.out.println("Sum is "+(a+b+c));
 	}
 
-
      void sum (int a, long b) {
     	 System.out.println("long sum is "+(a+b));
      }

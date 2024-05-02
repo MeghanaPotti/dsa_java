@@ -4,7 +4,7 @@ public class SortArray {
 
 	static int[] numbers = { 1, 21, 11, 5, 41, 3 };
 
-	void sorting(int[] numbers) {
+	public void sorting(int[] numbers) {
 		
 		int length=numbers.length;
 		

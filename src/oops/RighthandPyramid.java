@@ -13,7 +13,7 @@ public class RighthandPyramid {
             }
 
             // Inner loop for printing asterisks
-            for (int k = 1; k <= i; k++) {
+            for (int k = 1; k <= i; ++k) {
                 System.out.print("*");
             }
 
@@ -22,3 +22,5 @@ public class RighthandPyramid {
         }
     }
 }
+
+

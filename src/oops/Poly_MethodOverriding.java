@@ -5,7 +5,6 @@ class Cosmopolitan {
 	void status() {
 		System.out.println("Cosmopolitan city");
 	}
-	
 }
 
 class Metropolitan extends Cosmopolitan {
